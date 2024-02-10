@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Biblioteca</title>
+</head>
+<body>
+    <img src="./biblioteca-universitaria.jpg" alt="Imagem de Fundo" class="background-image">
+    <div class="gerenciador2">
+        <h1>Gerenciador de Biblioteca</h1>
+        <form id="gerenciador">
+            <h3>Quantidade:</h3>
+            <input type="number" id="quanti" required>
+            <br><br>
+            <h4>Ficção (F)</h4>
+            <input type="radio" id="ficcao" name="categoria" value="F" required>
+            <h4>Poema (P)</h4>
+            <input type="radio" id="poema" name="categoria" value="P" required>
+            <h4>Biografia (B)</h4>
+            <input type="radio" id="biografia" name="categoria" value="B" required>
+            <br><br>
+            <button type="submit">Adicionar</button>
+            <br><br>
+            <div class="result" id="saida"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
